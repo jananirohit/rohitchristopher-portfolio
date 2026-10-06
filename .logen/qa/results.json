@@ -1,0 +1,1804 @@
+{
+  "report": [
+    {
+      "passed": true,
+      "message": "Home is not a long document at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No portrait, placeholder or image at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Eight exploration destinations at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Home name fits at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL / at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination home renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for home at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page home at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for home at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for home at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /about at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination about renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for about at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page about at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for about at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for about at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /journey at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination journey renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for journey at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page journey at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for journey at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for journey at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Keyboard milestone opens at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone description retained at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone closes at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Timeline connects next chapter at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /impact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination impact renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for impact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page impact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for impact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for impact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Verified metrics at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /expertise at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination expertise renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for expertise at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page expertise at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for expertise at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for expertise at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Four discipline areas at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Eight tools retained at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /projects at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination projects renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for projects at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page projects at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for projects at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for projects at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /experience at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination experience renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for experience at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page experience at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for experience at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for experience at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Experience expands at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "2025 experience not presented as current role at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /whats-next at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination next renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for next at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page next at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for next at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for next at 1440px"
+    },
+    {
+      "passed": false,
+      "message": "Undisclosed chapter preserved at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /contact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Destination contact renders at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for contact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Active page contact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for contact at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for contact at 1440px"
+    },
+    {
+      "passed": false,
+      "message": "Missing contact details are honest at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Browser back returns previous destination at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Browser forward works at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "Direct route reload works at 1440px"
+    },
+    {
+      "passed": true,
+      "message": "No browser errors at 1440px: "
+    },
+    {
+      "passed": true,
+      "message": "Home is not a long document at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No portrait, placeholder or image at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Eight exploration destinations at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Home name fits at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL / at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination home renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for home at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page home at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for home at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for home at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for home at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination about renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for about at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination journey renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for journey at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Keyboard milestone opens at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone description retained at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone closes at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Timeline connects next chapter at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination impact renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for impact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Verified metrics at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination expertise renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for expertise at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Four discipline areas at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Eight tools retained at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination projects renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for projects at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination experience renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for experience at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Experience expands at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "2025 experience not presented as current role at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /whats-next at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination next renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for next at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page next at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for next at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for next at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for next at 1024px"
+    },
+    {
+      "passed": false,
+      "message": "Undisclosed chapter preserved at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /contact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Destination contact renders at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for contact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Active page contact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for contact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for contact at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for contact at 1024px"
+    },
+    {
+      "passed": false,
+      "message": "Missing contact details are honest at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Browser back returns previous destination at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Browser forward works at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Direct route reload works at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "Escape closes navigation at 1024px"
+    },
+    {
+      "passed": true,
+      "message": "No browser errors at 1024px: "
+    },
+    {
+      "passed": true,
+      "message": "Home is not a long document at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No portrait, placeholder or image at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Eight exploration destinations at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Home name fits at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL / at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination home renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for home at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page home at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for home at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for home at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for home at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination about renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for about at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination journey renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for journey at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Keyboard milestone opens at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone description retained at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone closes at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Timeline connects next chapter at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination impact renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for impact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Verified metrics at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination expertise renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for expertise at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Four discipline areas at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Eight tools retained at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination projects renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for projects at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination experience renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for experience at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Experience expands at 768px"
+    },
+    {
+      "passed": true,
+      "message": "2025 experience not presented as current role at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /whats-next at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination next renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for next at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page next at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for next at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for next at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for next at 768px"
+    },
+    {
+      "passed": false,
+      "message": "Undisclosed chapter preserved at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /contact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Destination contact renders at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for contact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Active page contact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for contact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for contact at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for contact at 768px"
+    },
+    {
+      "passed": false,
+      "message": "Missing contact details are honest at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Browser back returns previous destination at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Browser forward works at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Direct route reload works at 768px"
+    },
+    {
+      "passed": true,
+      "message": "Escape closes navigation at 768px"
+    },
+    {
+      "passed": true,
+      "message": "No browser errors at 768px: "
+    },
+    {
+      "passed": true,
+      "message": "Home is not a long document at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No portrait, placeholder or image at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Eight exploration destinations at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Home name fits at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL / at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination home renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for home at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page home at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for home at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for home at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for home at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination about renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for about at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination journey renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for journey at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Keyboard milestone opens at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone description retained at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone closes at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Timeline connects next chapter at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination impact renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for impact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Verified metrics at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination expertise renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for expertise at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Four discipline areas at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Eight tools retained at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination projects renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for projects at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination experience renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for experience at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Experience expands at 390px"
+    },
+    {
+      "passed": true,
+      "message": "2025 experience not presented as current role at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /whats-next at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination next renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for next at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page next at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for next at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for next at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for next at 390px"
+    },
+    {
+      "passed": false,
+      "message": "Undisclosed chapter preserved at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /contact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Destination contact renders at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for contact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Active page contact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for contact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for contact at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for contact at 390px"
+    },
+    {
+      "passed": false,
+      "message": "Missing contact details are honest at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Browser back returns previous destination at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Browser forward works at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Direct route reload works at 390px"
+    },
+    {
+      "passed": true,
+      "message": "Escape closes navigation at 390px"
+    },
+    {
+      "passed": true,
+      "message": "No browser errors at 390px: "
+    },
+    {
+      "passed": true,
+      "message": "Home is not a long document at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No portrait, placeholder or image at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Eight exploration destinations at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Home name fits at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL / at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination home renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for home at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page home at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for home at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for home at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for home at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination about renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for about at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination journey renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for journey at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Keyboard milestone opens at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone description retained at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Milestone closes at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Timeline connects next chapter at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination impact renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for impact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Verified metrics at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination expertise renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for expertise at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Four discipline areas at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Eight tools retained at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination projects renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for projects at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Case study opens at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Original full case study at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination experience renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for experience at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Experience expands at 320px"
+    },
+    {
+      "passed": true,
+      "message": "2025 experience not presented as current role at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /whats-next at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination next renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for next at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page next at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for next at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for next at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for next at 320px"
+    },
+    {
+      "passed": false,
+      "message": "Undisclosed chapter preserved at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Real URL /contact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Destination contact renders at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Only chosen chapter mounted for contact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Active page contact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Semantic heading for contact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No horizontal overflow for contact at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Mobile menu closes for contact at 320px"
+    },
+    {
+      "passed": false,
+      "message": "Missing contact details are honest at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Browser back returns previous destination at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Browser forward works at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Direct route reload works at 320px"
+    },
+    {
+      "passed": true,
+      "message": "Escape closes navigation at 320px"
+    },
+    {
+      "passed": true,
+      "message": "No browser errors at 320px: "
+    },
+    {
+      "passed": true,
+      "message": "Animated gradient retained with normal motion"
+    },
+    {
+      "passed": true,
+      "message": "Live reduced-motion preference disables motion"
+    }
+  ],
+  "errors": [
+    "Undisclosed chapter preserved at 1440px",
+    "Missing contact details are honest at 1440px",
+    "Undisclosed chapter preserved at 1024px",
+    "Missing contact details are honest at 1024px",
+    "Undisclosed chapter preserved at 768px",
+    "Missing contact details are honest at 768px",
+    "Undisclosed chapter preserved at 390px",
+    "Missing contact details are honest at 390px",
+    "Undisclosed chapter preserved at 320px",
+    "Missing contact details are honest at 320px"
+  ]
+}
