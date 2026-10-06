@@ -26,6 +26,14 @@
     },
     {
       "passed": true,
+      "message": "Responsive card grid 1440"
+    },
+    {
+      "passed": true,
+      "message": "Compact card typography and layout 1440"
+    },
+    {
+      "passed": true,
       "message": "Correct PEOPLE detail title 1440"
     },
     {
@@ -77,7 +85,7 @@
       "message": "Dialog fits OPERATIONS 1440"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Focus restored OPERATIONS 1440"
     },
     {
@@ -133,7 +141,7 @@
       "message": "Dialog fits QUALITY 1440"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Focus restored QUALITY 1440"
     },
     {
@@ -349,8 +357,8 @@
       "message": "No runtime errors 1440: "
     },
     {
-      "passed": false,
-      "message": "No accessibility console warnings 1440: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+      "passed": true,
+      "message": "No accessibility console warnings 1440: "
     },
     {
       "passed": true,
@@ -375,6 +383,14 @@
     {
       "passed": true,
       "message": "No page overflow 1024"
+    },
+    {
+      "passed": true,
+      "message": "Responsive card grid 1024"
+    },
+    {
+      "passed": true,
+      "message": "Compact card typography and layout 1024"
     },
     {
       "passed": true,
@@ -545,7 +561,7 @@
       "message": "AI credibility disclaimer 1024"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Focus restored AI & TRANSFORMATION 1024"
     },
     {
@@ -701,8 +717,8 @@
       "message": "No runtime errors 1024: "
     },
     {
-      "passed": false,
-      "message": "No accessibility console warnings 1024: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+      "passed": true,
+      "message": "No accessibility console warnings 1024: "
     },
     {
       "passed": true,
@@ -727,6 +743,14 @@
     {
       "passed": true,
       "message": "No page overflow 768"
+    },
+    {
+      "passed": true,
+      "message": "Responsive card grid 768"
+    },
+    {
+      "passed": true,
+      "message": "Compact card typography and layout 768"
     },
     {
       "passed": true,
@@ -1053,8 +1077,8 @@
       "message": "No runtime errors 768: "
     },
     {
-      "passed": false,
-      "message": "No accessibility console warnings 768: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+      "passed": true,
+      "message": "No accessibility console warnings 768: "
     },
     {
       "passed": true,
@@ -1079,6 +1103,14 @@
     {
       "passed": true,
       "message": "No page overflow 390"
+    },
+    {
+      "passed": true,
+      "message": "Responsive card grid 390"
+    },
+    {
+      "passed": true,
+      "message": "Compact card typography and layout 390"
     },
     {
       "passed": true,
@@ -1405,8 +1437,8 @@
       "message": "No runtime errors 390: "
     },
     {
-      "passed": false,
-      "message": "No accessibility console warnings 390: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+      "passed": true,
+      "message": "No accessibility console warnings 390: "
     },
     {
       "passed": true,
@@ -1431,6 +1463,14 @@
     {
       "passed": true,
       "message": "No page overflow 320"
+    },
+    {
+      "passed": true,
+      "message": "Responsive card grid 320"
+    },
+    {
+      "passed": true,
+      "message": "Compact card typography and layout 320"
     },
     {
       "passed": true,
@@ -1757,22 +1797,13 @@
       "message": "No runtime errors 320: "
     },
     {
-      "passed": false,
-      "message": "No accessibility console warnings 320: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+      "passed": true,
+      "message": "No accessibility console warnings 320: "
     },
     {
       "passed": true,
       "message": "Dialog respects reduced motion"
     }
   ],
-  "errors": [
-    "Focus restored OPERATIONS 1440",
-    "Focus restored QUALITY 1440",
-    "No accessibility console warnings 1440: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
-    "Focus restored AI & TRANSFORMATION 1024",
-    "No accessibility console warnings 1024: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
-    "No accessibility console warnings 768: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
-    "No accessibility console warnings 390: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
-    "No accessibility console warnings 320: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
-  ]
+  "errors": []
 }

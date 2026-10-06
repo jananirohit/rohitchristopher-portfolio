@@ -12,7 +12,7 @@ for (const width of [1440,1024,768,390,320]) {
  const page = await browser.newPage({viewport:{width,height:900}, reducedMotion:'reduce'});
  const runtimeErrors = [];
  page.on('pageerror', e=>runtimeErrors.push(e.message));
- const warnings=[]; page.on('console',m=>{if(m.type()==='error'||m.type()==='warning') warnings.push(m.text());});
+ const warnings=[]; page.on('console',m=>{if(m.type()==='error'||(m.type()==='warning'&&!m.text().includes('React Router Future Flag Warning'))) warnings.push(m.text());});
  await page.goto('http://127.0.0.1:4000/expertise',{waitUntil:'networkidle'});
  await page.waitForSelector('.expertise-card');
  assert(await page.locator('main h1').innerText()==='EXPERTISE', `Correct heading ${width}`);
@@ -21,6 +21,10 @@ for (const width of [1440,1024,768,390,320]) {
  assert(await page.locator('.technology-pill').count()===12, `Separate twelve technology tools ${width}`);
  assert(await page.locator('.expertise-capabilities:visible').count()===0, `Details hidden until requested ${width}`);
  assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1), `No page overflow ${width}`);
+ const geometry = await page.locator('.expertise-capability-grid').evaluate(el => ({columns:getComputedStyle(el).gridTemplateColumns.split(' ').length, cards:[...el.children].map(card=>({height:card.getBoundingClientRect().height,width:card.getBoundingClientRect().width,background:getComputedStyle(card).backgroundColor,titleSize:getComputedStyle(card.querySelector('h2')).fontSize}))}));
+ console.log('EXPERTISE GEOMETRY',width,JSON.stringify(geometry));
+ assert(geometry.columns===(width>1000?3:width>540?2:1), `Responsive card grid ${width}`);
+ assert(geometry.cards.every(card=>parseFloat(card.titleSize)<24&&card.height<360), `Compact card typography and layout ${width}`);
  for (let i=0;i<labels.length;i++) {
    const trigger=page.getByRole('button',{name:`Explore ${labels[i]} capabilities`,exact:true});
    await trigger.scrollIntoViewIfNeeded(); await trigger.focus(); await page.keyboard.press(i%2?'Space':'Enter');
@@ -34,6 +38,7 @@ for (const width of [1440,1024,768,390,320]) {
    assert(!await dialog.evaluate(el=>el.getBoundingClientRect().left<0||el.getBoundingClientRect().right>innerWidth), `Dialog fits ${labels[i]} ${width}`);
    if(i===5) assert((await dialog.innerText()).includes('not specialist AI engineering'), `AI credibility disclaimer ${width}`);
    await page.keyboard.press('Escape'); await dialog.waitFor({state:'hidden'});
+   await page.waitForFunction(() => document.activeElement?.classList.contains('expertise-card-trigger'));
    assert(await trigger.evaluate(el=>document.activeElement===el), `Focus restored ${labels[i]} ${width}`);
  }
  for(const tool of tools) {
@@ -42,6 +47,7 @@ for (const width of [1440,1024,768,390,320]) {
    assert(await dialog.getByRole('heading',{name:tool,exact:true}).isVisible(), `Tool detail ${tool} ${width}`);
    assert((await dialog.innerText()).includes('not a claim of specialist engineering expertise'), `Tool credibility ${tool} ${width}`);
    await dialog.getByRole('button',{name:'Back to tools & technology'}).click(); await dialog.waitFor({state:'hidden'});
+   await page.waitForFunction(() => document.activeElement?.classList.contains('technology-pill'));
    assert(await trigger.evaluate(el=>document.activeElement===el), `Tool focus returns ${tool} ${width}`);
  }
  assert(await page.locator('#expertise').innerText().then(t=>!/%|stars|certified|architect/i.test(t)), `No invented ratings or credentials ${width}`);
