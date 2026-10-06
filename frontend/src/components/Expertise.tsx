@@ -38,13 +38,11 @@ export const expertiseAreas = [
 
 export const technologyTools = [
   { name: 'Power BI', group: 'Insight & reporting', description: 'Operational dashboards and performance reporting that make KPIs and trends easier to understand.' },
-  { name: 'Microsoft Lists', group: 'Workflow & collaboration', description: 'Structured tracking of operational information, shared tasks and process activity.' },
   { name: 'SharePoint', group: 'Workflow & collaboration', description: 'Shared information, document management and accessible process guidance in a cloud-based workplace.' },
   { name: 'Power Automate', group: 'Workflow & automation', description: 'Identifying opportunities to connect routine workflow steps and reduce repetitive administrative work.' },
   { name: 'Excel', group: 'Insight & reporting', description: 'Practical operational analysis, reporting and structured information management.' },
   { name: 'Salesforce', group: 'Business applications', description: 'Using a cloud-based business application to support service processes and operational information.' },
   { name: 'Redshift', group: 'Data & reporting environment', description: 'Exposure to a cloud-based data environment in support of operational data and reporting; not database engineering or architecture.' },
-  { name: 'Microsoft Teams', group: 'Workflow & collaboration', description: 'Team coordination, communication and cross-functional collaboration in everyday operations.' },
   { name: 'Generative AI', group: 'AI-enabled productivity', description: 'Practical adoption of generative AI for drafting, structuring information and exploring process improvements, with human review and attention to sensitive data.' },
   { name: 'AI Productivity Tools', group: 'AI-enabled productivity', description: 'Exploring AI-assisted everyday work to reduce routine effort and support productivity, while keeping judgement and accountability with people.' },
   { name: 'Cloud Platforms', group: 'Cloud-enabled operations', description: 'Practical exposure to cloud technology as an enabler of accessible information, connected workflows and modern operations—not cloud architecture or infrastructure engineering.' },

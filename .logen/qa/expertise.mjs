@@ -7,7 +7,7 @@ const source = await readFile('frontend/src/components/Expertise.tsx','utf8');
 const capabilities = [...source.matchAll(/capabilities: \[([^\]]+)\]/g)].map(match=>[...match[1].matchAll(/'([^']+)'/g)].map(m=>m[1]));
 const labels = ['PEOPLE','OPERATIONS','PROCESS','QUALITY','DATA','AI & TRANSFORMATION'];
 const titles = ['PEOPLE & LEADERSHIP','OPERATIONS','PROCESS EXCELLENCE','QUALITY & COMPLIANCE','DATA & ANALYTICS','AI, AUTOMATION & DIGITAL TRANSFORMATION'];
-const tools = ['Power BI','Microsoft Lists','SharePoint','Power Automate','Excel','Salesforce','Redshift','Microsoft Teams','Generative AI','AI Productivity Tools','Cloud Platforms','Cloud-based Business Applications'];
+const tools = ['Power BI','SharePoint','Power Automate','Excel','Salesforce','Redshift','Generative AI','AI Productivity Tools','Cloud Platforms','Cloud-based Business Applications'];
 for (const width of [1440,1024,768,390,320]) {
  const page = await browser.newPage({viewport:{width,height:900}, reducedMotion:'reduce'});
  const runtimeErrors = [];
@@ -18,7 +18,8 @@ for (const width of [1440,1024,768,390,320]) {
  assert(await page.locator('main h1').innerText()==='EXPERTISE', `Correct heading ${width}`);
  assert(await page.getByText('Where people, process, technology and performance come together.', {exact:true}).isVisible(), `Exact support line ${width}`);
  assert(await page.locator('.expertise-card').count()===6, `Six capability cards ${width}`);
- assert(await page.locator('.technology-pill').count()===12, `Separate twelve technology tools ${width}`);
+ assert(await page.locator('.technology-pill').count()===10, `Separate ten technology tools ${width}`);
+ assert(await page.locator('#tools').getByRole('button', {name: /^(Microsoft Teams|MS Teams|Microsoft Lists)$/i}).count()===0, `Teams and Lists removed ${width}`);
  assert(await page.locator('.expertise-capabilities:visible').count()===0, `Details hidden until requested ${width}`);
  assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1), `No page overflow ${width}`);
  const geometry = await page.locator('.expertise-capability-grid').evaluate(el => ({columns:getComputedStyle(el).gridTemplateColumns.split(' ').length, cards:[...el.children].map(card=>({height:card.getBoundingClientRect().height,width:card.getBoundingClientRect().width,background:getComputedStyle(card).backgroundColor,titleSize:getComputedStyle(card.querySelector('h2')).fontSize}))}));

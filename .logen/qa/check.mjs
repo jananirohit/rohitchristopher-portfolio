@@ -56,7 +56,7 @@ for (const width of [1440, 1024, 768, 390, 320]) {
   }
   if (id === 'expertise') {
    assert(await page.locator('#expertise .expertise-card').count() === 6, `Six expertise areas at ${width}px`);
-   assert(await page.locator('#tools .technology-pill').count() === 12, `Twelve technology tools at ${width}px`);
+   assert(await page.locator('#tools .technology-pill').count() === 10, `Ten technology tools at ${width}px`);
   }
   if (id === 'projects') {
    for (const button of await page.locator('#projects button').all()) {
