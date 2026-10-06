@@ -2,7 +2,7 @@ import { portfolioConfig } from './portfolio.config';
 
 // The published portfolio's original section DOM and wording are preserved.
 // This layer enhances that interface; it does not recreate career content.
-export function enhancePortfolio(root: HTMLElement) {
+export function enhancePortfolio(root: HTMLElement, navigate: (path: string) => void) {
   const cleanup: (() => void)[] = [];
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const select = <T extends Element = HTMLElement>(selector: string) => root.querySelector<T>(selector);
@@ -17,7 +17,6 @@ export function enhancePortfolio(root: HTMLElement) {
     element.textContent = value;
     return element;
   };
-  const sectionIds = ['home', 'about', 'journey', 'impact', 'expertise', 'projects', 'experience', 'next', 'contact'];
   all('section').forEach(section => section.classList.add('portfolio-chapter'));
   select('main')?.setAttribute('id', 'main-content');
   const header = select('header');
@@ -45,71 +44,24 @@ export function enhancePortfolio(root: HTMLElement) {
       if (!header.contains(event.target as Node)) setMenu(false);
     });
   }
-  all<HTMLAnchorElement>('a[href^="#"]').forEach(anchor => {
-    const id = anchor.getAttribute('href')?.slice(1);
-    if (!id) return;
-    listen(anchor, 'click', event => {
-      const target = select<HTMLElement>(`#${CSS.escape(id)}`);
-      if (!target) return;
-      event.preventDefault();
-      history.replaceState(null, '', `#${id}`);
-      target.scrollIntoView({ behavior: reduced.matches ? 'auto' : 'smooth', block: 'start' });
-      const heading = target.querySelector<HTMLElement>('h1, h2');
-      if (heading) {
-        heading.setAttribute('tabindex', '-1');
-        heading.focus({ preventScroll: true });
-      }
-    });
+  // Delegated navigation retains genuine URLs, new-tab gestures, and back/forward.
+  listen(root, 'click', event => {
+    const mouse = event as MouseEvent;
+    if (mouse.button !== 0 || mouse.metaKey || mouse.ctrlKey || mouse.shiftKey || mouse.altKey) return;
+    const anchor = (event.target as Element).closest<HTMLAnchorElement>('a[href]');
+    const path = anchor?.getAttribute('href');
+    if (!path?.startsWith('/') || anchor?.target === '_blank' || anchor?.hasAttribute('download')) return;
+    event.preventDefault();
+    navigate(path);
   });
 
-  const visual = select<HTMLElement>('#home [aria-label^="Portrait"]');
-  if (visual) {
-    visual.classList.add('hero-sculpture');
-    visual.removeAttribute('aria-label');
-    visual.replaceChildren();
-    if (portfolioConfig.portrait) {
-      const photo = document.createElement('img');
-      photo.src = portfolioConfig.portrait;
-      photo.alt = 'Rohit Christopher John';
-      photo.className = 'hero-portrait';
-      photo.fetchPriority = 'high';
-      photo.decoding = 'async';
-      visual.append(photo);
-      visual.classList.add('has-portrait');
-    } else {
-      visual.setAttribute('aria-hidden', 'true');
-      ['people', 'process', 'performance'].forEach((name, index) => {
-        const ribbon = text('div', `sculpture-ribbon ribbon-${index + 1}`, name);
-        visual.append(ribbon);
-      });
-      visual.append(text('span', 'sculpture-caption', 'Connected by purpose.'));
-    }
-    const parent = visual.parentElement;
-    parent?.classList.add('hero-visual');
-    const badge = parent?.querySelector<HTMLElement>('.glass');
-    badge?.classList.add('experience-seal');
-    all('#home .animate-orbit').forEach(element => element.remove());
-    if (parent) {
-      listen(parent, 'pointermove', event => {
-        if (reduced.matches || (event as PointerEvent).pointerType !== 'mouse') return;
-        const pointer = event as PointerEvent;
-        const box = parent.getBoundingClientRect();
-        visual.style.setProperty('--pointer-x', `${((pointer.clientX - box.left) / box.width - .5) * 10}px`);
-        visual.style.setProperty('--pointer-y', `${((pointer.clientY - box.top) / box.height - .5) * 10}px`);
-      }, { passive: true });
-      listen(parent, 'pointerleave', () => {
-        visual.style.setProperty('--pointer-x', '0px');
-        visual.style.setProperty('--pointer-y', '0px');
-      });
-    }
-  }
   const hero = select<HTMLElement>('#home');
   if (hero) {
     const footer = text('div', 'hero-footnote', 'People Management / Process Excellence / Quality & Operations');
     const scroll = document.createElement('a');
-    scroll.href = '#about';
+    scroll.href = '/about';
     scroll.className = 'hero-scroll';
-    scroll.textContent = 'A little about me ↓';
+    scroll.textContent = 'A little about me ↗';
     footer.append(scroll);
     hero.append(footer);
   }
@@ -151,7 +103,7 @@ export function enhancePortfolio(root: HTMLElement) {
     rails[0]?.classList.add('timeline-rail');
     rails[1]?.classList.add('timeline-fill');
     const continuation = document.createElement('a');
-    continuation.href = '#next';
+    continuation.href = '/whats-next';
     continuation.className = 'timeline-continuation';
     continuation.append(text('strong', '', '2026 →'), text('span', '', 'The journey continues. Explore what’s next ↗'));
     journeyContainer.append(continuation);
@@ -251,7 +203,7 @@ export function enhancePortfolio(root: HTMLElement) {
   const nextSection = select<HTMLElement>('#next');
   if (nextSection) {
     const period = nextSection.querySelector<HTMLElement>('p.text-xs');
-    const title = nextSection.querySelector<HTMLElement>('h2');
+    const title = nextSection.querySelector<HTMLElement>('h1, h2');
     const statement = nextSection.querySelector<HTMLElement>('p.text-xl');
     if (period) period.textContent = next.period;
     if (title) {
@@ -307,19 +259,6 @@ export function enhancePortfolio(root: HTMLElement) {
   let scheduled = 0;
   const updateScroll = () => {
     scheduled = 0;
-    const activationLine = Math.min(window.innerHeight * .35, 280);
-    let active = 'home';
-    sectionIds.forEach(id => {
-      const section = select<HTMLElement>(`#${id}`);
-      if (section && section.getBoundingClientRect().top <= activationLine) active = id;
-    });
-    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 5) active = 'contact';
-    all<HTMLAnchorElement>('header nav a').forEach(anchor => {
-      const current = anchor.getAttribute('href') === `#${active}`;
-      anchor.classList.toggle('nav-active', current);
-      if (current) anchor.setAttribute('aria-current', 'location');
-      else anchor.removeAttribute('aria-current');
-    });
     header?.classList.toggle('nav-scrolled', window.scrollY > 20);
     if (journeyContainer) {
       const bounds = journeyContainer.getBoundingClientRect();

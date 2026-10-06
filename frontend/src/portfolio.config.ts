@@ -1,7 +1,6 @@
-// Add only verified personal details here. The source website supplied no photo,
-// personal LinkedIn URL, email, or downloadable CV. Null keeps them honest.
+// Add only verified contact details here. The source website supplied no personal
+// LinkedIn URL, email, or downloadable CV. Null keeps these controls honest.
 export const portfolioConfig = {
-  portrait: null as string | null,
   linkedin: null as string | null,
   email: null as string | null,
   cv: null as string | null,
