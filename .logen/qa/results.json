@@ -277,7 +277,7 @@
       "message": "No horizontal overflow for next at 1440px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Undisclosed chapter preserved at 1440px"
     },
     {
@@ -305,7 +305,7 @@
       "message": "No horizontal overflow for contact at 1440px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Missing contact details are honest at 1440px"
     },
     {
@@ -633,7 +633,7 @@
       "message": "Mobile menu closes for next at 1024px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Undisclosed chapter preserved at 1024px"
     },
     {
@@ -665,7 +665,7 @@
       "message": "Mobile menu closes for contact at 1024px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Missing contact details are honest at 1024px"
     },
     {
@@ -997,7 +997,7 @@
       "message": "Mobile menu closes for next at 768px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Undisclosed chapter preserved at 768px"
     },
     {
@@ -1029,7 +1029,7 @@
       "message": "Mobile menu closes for contact at 768px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Missing contact details are honest at 768px"
     },
     {
@@ -1361,7 +1361,7 @@
       "message": "Mobile menu closes for next at 390px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Undisclosed chapter preserved at 390px"
     },
     {
@@ -1393,7 +1393,7 @@
       "message": "Mobile menu closes for contact at 390px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Missing contact details are honest at 390px"
     },
     {
@@ -1725,7 +1725,7 @@
       "message": "Mobile menu closes for next at 320px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Undisclosed chapter preserved at 320px"
     },
     {
@@ -1757,7 +1757,7 @@
       "message": "Mobile menu closes for contact at 320px"
     },
     {
-      "passed": false,
+      "passed": true,
       "message": "Missing contact details are honest at 320px"
     },
     {
@@ -1789,16 +1789,5 @@
       "message": "Live reduced-motion preference disables motion"
     }
   ],
-  "errors": [
-    "Undisclosed chapter preserved at 1440px",
-    "Missing contact details are honest at 1440px",
-    "Undisclosed chapter preserved at 1024px",
-    "Missing contact details are honest at 1024px",
-    "Undisclosed chapter preserved at 768px",
-    "Missing contact details are honest at 768px",
-    "Undisclosed chapter preserved at 390px",
-    "Missing contact details are honest at 390px",
-    "Undisclosed chapter preserved at 320px",
-    "Missing contact details are honest at 320px"
-  ]
+  "errors": []
 }
