@@ -55,49 +55,49 @@ export function Expertise() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="expertise-intro">
-        <div>
-          <p className="expertise-eyebrow">Capabilities, not just tools</p>
-          <h1 className="page-heading expertise-heading">EXPERTISE</h1>
-          <p className="expertise-support">Where people, process, technology and performance come together.</p>
+      <div data-lg-key="5a0ac8ab4e" className="expertise-intro">
+        <div data-lg-key="81a377ac1c">
+          <p data-lg-key="f9367fb32e" className="expertise-eyebrow">Capabilities, not just tools</p>
+          <h1 data-lg-key="c5403ff346" className="page-heading expertise-heading">EXPERTISE</h1>
+          <p data-lg-key="7add58cb2c" className="expertise-support">Where people, process, technology and performance come together.</p>
         </div>
-        <div className="expertise-thesis" aria-label="People plus process plus performance, with technology as an enabler">
-          <p><strong>PEOPLE</strong><span aria-hidden="true">+</span><strong>PROCESS</strong><span aria-hidden="true">+</span><strong>PERFORMANCE</strong></p>
-          <span>Technology is the enabler.</span>
+        <div data-lg-key="3892060682" className="expertise-thesis" aria-label="People plus process plus performance, with technology as an enabler">
+          <p data-lg-key="3a1d3fe5b3"><strong data-lg-key="d6f2bf7bac">PEOPLE</strong><span data-lg-key="c88380f235" aria-hidden="true">+</span><strong data-lg-key="381821f2f1">PROCESS</strong><span data-lg-key="4774108902" aria-hidden="true">+</span><strong data-lg-key="6c7fb14884">PERFORMANCE</strong></p>
+          <span data-lg-key="3dd44fd4cf">Technology is the enabler.</span>
         </div>
       </div>
-      <p className="expertise-instruction">Choose an area to explore the capabilities behind it.</p>
+      <p data-lg-key="ef61894d76" className="expertise-instruction">Choose an area to explore the capabilities behind it.</p>
       <Dialog open={open} onOpenChange={setOpen}>
-      <div className="expertise-capability-grid">
+      <div data-lg-key="7adf7a3a1c" className="expertise-capability-grid">
         {expertiseAreas.map(area => {
           const Icon = area.icon;
           return (
             <Card key={area.id} className={`expertise-card expertise-category-${area.id}`}>
               <CardHeader className="expertise-card-header">
-                <div className="expertise-card-identity">
-                  <div className="expertise-icon"><Icon size={24} strokeWidth={1.7} aria-hidden="true" /></div>
-                  <span className="expertise-indicator"><i aria-hidden="true" />{area.indicator}</span>
+                <div data-lg-key="44284c64c1" className="expertise-card-identity">
+                  <div data-lg-key="c581d66638" className="expertise-icon"><Icon size={24} strokeWidth={1.7} aria-hidden="true" /></div>
+                  <span data-lg-key="0948d6df64" className="expertise-indicator"><i data-lg-key="373a8face8" aria-hidden="true" />{area.indicator}</span>
                 </div>
-                <CardTitle><h2 className="expertise-card-title">{area.label}</h2></CardTitle>
+                <CardTitle><h2 data-lg-key="7cfd42778f" className="expertise-card-title">{area.label}</h2></CardTitle>
                 <CardDescription className="expertise-card-description">{area.description}</CardDescription>
               </CardHeader>
-              <CardFooter className="expertise-card-footer" aria-hidden="true"><span>Explore capabilities</span><ArrowUpRight size={18} /></CardFooter>
-              <DialogTrigger asChild><Button variant="ghost" className="expertise-card-trigger" onClick={event => { trigger.current = event.currentTarget; setSelected(area); }}><span className="sr-only">Explore {area.label} capabilities</span></Button></DialogTrigger>
+              <CardFooter className="expertise-card-footer" aria-hidden="true"><span data-lg-key="d6a8591868">Explore capabilities</span><ArrowUpRight size={18} /></CardFooter>
+              <DialogTrigger asChild><Button variant="ghost" className="expertise-card-trigger" onClick={event => { trigger.current = event.currentTarget; setSelected(area); }}><span data-lg-key="9212a07367" className="sr-only">Explore {area.label} capabilities</span></Button></DialogTrigger>
             </Card>
           );
         })}
       </div>
-      <p className="expertise-positioning">I lead people, improve processes, manage operations, use data to understand performance, and increasingly leverage AI, automation and cloud technology to make work better.</p>
+      <p data-lg-key="c1e3481763" className="expertise-positioning">I lead people, improve processes, manage operations, use data to understand performance, and increasingly leverage AI, automation and cloud technology to make work better.</p>
         <DialogContent onCloseAutoFocus={event => { event.preventDefault(); trigger.current?.focus(); }} className={`expertise-dialog expertise-category-${selected?.id ?? 'people'}`}>
           <DialogHeader>
-            <p className="expertise-dialog-eyebrow">{selected?.indicator}</p>
+            <p data-lg-key="6608e4df80" className="expertise-dialog-eyebrow">{selected?.indicator}</p>
             <DialogTitle className="expertise-dialog-title">{selected?.title}</DialogTitle>
             <DialogDescription className="expertise-dialog-description">{selected?.description}</DialogDescription>
           </DialogHeader>
-          <ul className="expertise-capabilities" aria-label="Capabilities">
-            {selected?.capabilities.map(capability => <li key={capability}><Check size={16} aria-hidden="true" /><span>{capability}</span></li>)}
+          <ul data-lg-key="b87d3bed9e" className="expertise-capabilities" aria-label="Capabilities">
+            {selected?.capabilities.map(capability => <li data-lg-key="1d47b4f2e2" key={capability}><Check size={16} aria-hidden="true" /><span data-lg-key="4c4bce4c57">{capability}</span></li>)}
           </ul>
-          {selected?.id === 'ai' && <p className="expertise-practical-note">An actively developing focus: practical exposure, adoption and application in people, process and operations—not specialist AI engineering.</p>}
+          {selected?.id === 'ai' && <p data-lg-key="5386d79f3c" className="expertise-practical-note">An actively developing focus: practical exposure, adoption and application in people, process and operations—not specialist AI engineering.</p>}
           <Button variant="outline" className="expertise-dialog-return" onClick={() => setOpen(false)}>Back to all expertise</Button>
         </DialogContent>
       </Dialog>
@@ -111,27 +111,27 @@ export function TechnologyStack() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="technology-intro">
-        <div><p className="expertise-eyebrow">The supporting stack</p><h2 className="technology-heading">TOOLS & TECHNOLOGY</h2></div>
-        <p>Tools I use and explore to support operations, insight and better ways of working. Select a tool for its practical context.</p>
+      <div data-lg-key="f27c240652" className="technology-intro">
+        <div data-lg-key="ec88ffd7d3"><p data-lg-key="dc9c443da1" className="expertise-eyebrow">The supporting stack</p><h2 data-lg-key="2bfd55fe39" className="technology-heading">TOOLS & TECHNOLOGY</h2></div>
+        <p data-lg-key="2a67b297eb">Tools I use and explore to support operations, insight and better ways of working. Select a tool for its practical context.</p>
       </div>
       <Dialog open={open} onOpenChange={setOpen}>
-      <div className="technology-pills" aria-label="Tools and technology">
+      <div data-lg-key="401a4c9ec4" className="technology-pills" aria-label="Tools and technology">
         {technologyTools.map(tool => {
           const isAI = tool.group === 'AI-enabled productivity';
           const isCloud = tool.group === 'Cloud-enabled operations';
           const Icon = isAI ? Sparkles : isCloud ? Cloud : Wrench;
-          return <DialogTrigger asChild key={tool.name}><Button variant="outline" className={`technology-pill ${isAI || isCloud ? 'technology-enabler' : ''}`} onClick={event => { trigger.current = event.currentTarget; setSelected(tool); }}><Icon size={15} aria-hidden="true" /><span>{tool.name}</span><ArrowUpRight size={13} aria-hidden="true" /></Button></DialogTrigger>;
+          return <DialogTrigger asChild key={tool.name}><Button variant="outline" className={`technology-pill ${isAI || isCloud ? 'technology-enabler' : ''}`} onClick={event => { trigger.current = event.currentTarget; setSelected(tool); }}><Icon size={15} aria-hidden="true" /><span data-lg-key="3c6d8909b4">{tool.name}</span><ArrowUpRight size={13} aria-hidden="true" /></Button></DialogTrigger>;
         })}
       </div>
-      <p className="technology-note">Practical technology adoption in an operations and process environment. People, judgement and accountability stay at the centre.</p>
+      <p data-lg-key="27edae6b46" className="technology-note">Practical technology adoption in an operations and process environment. People, judgement and accountability stay at the centre.</p>
         <DialogContent onCloseAutoFocus={event => { event.preventDefault(); trigger.current?.focus(); }} className="expertise-dialog technology-dialog">
           <DialogHeader>
-            <p className="expertise-dialog-eyebrow">{selected?.group}</p>
+            <p data-lg-key="814eb480fb" className="expertise-dialog-eyebrow">{selected?.group}</p>
             <DialogTitle className="expertise-dialog-title">{selected?.name}</DialogTitle>
             <DialogDescription className="expertise-dialog-description">{selected?.description}</DialogDescription>
           </DialogHeader>
-          <p className="expertise-practical-note">Technology as an enabler of people, process and performance—not a claim of specialist engineering expertise.</p>
+          <p data-lg-key="47f1331590" className="expertise-practical-note">Technology as an enabler of people, process and performance—not a claim of specialist engineering expertise.</p>
           <Button variant="outline" className="expertise-dialog-return" onClick={() => setOpen(false)}>Back to tools & technology</Button>
         </DialogContent>
       </Dialog>
