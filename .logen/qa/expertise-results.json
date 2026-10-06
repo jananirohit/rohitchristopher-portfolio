@@ -14,7 +14,11 @@
     },
     {
       "passed": true,
-      "message": "Separate twelve technology tools 1440"
+      "message": "Separate ten technology tools 1440"
+    },
+    {
+      "passed": true,
+      "message": "Teams and Lists removed 1440"
     },
     {
       "passed": true,
@@ -218,18 +222,6 @@
     },
     {
       "passed": true,
-      "message": "Tool detail Microsoft Lists 1440"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Lists 1440"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Lists 1440"
-    },
-    {
-      "passed": true,
       "message": "Tool detail SharePoint 1440"
     },
     {
@@ -287,18 +279,6 @@
     {
       "passed": true,
       "message": "Tool focus returns Redshift 1440"
-    },
-    {
-      "passed": true,
-      "message": "Tool detail Microsoft Teams 1440"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Teams 1440"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Teams 1440"
     },
     {
       "passed": true,
@@ -374,7 +354,11 @@
     },
     {
       "passed": true,
-      "message": "Separate twelve technology tools 1024"
+      "message": "Separate ten technology tools 1024"
+    },
+    {
+      "passed": true,
+      "message": "Teams and Lists removed 1024"
     },
     {
       "passed": true,
@@ -578,18 +562,6 @@
     },
     {
       "passed": true,
-      "message": "Tool detail Microsoft Lists 1024"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Lists 1024"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Lists 1024"
-    },
-    {
-      "passed": true,
       "message": "Tool detail SharePoint 1024"
     },
     {
@@ -647,18 +619,6 @@
     {
       "passed": true,
       "message": "Tool focus returns Redshift 1024"
-    },
-    {
-      "passed": true,
-      "message": "Tool detail Microsoft Teams 1024"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Teams 1024"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Teams 1024"
     },
     {
       "passed": true,
@@ -734,7 +694,11 @@
     },
     {
       "passed": true,
-      "message": "Separate twelve technology tools 768"
+      "message": "Separate ten technology tools 768"
+    },
+    {
+      "passed": true,
+      "message": "Teams and Lists removed 768"
     },
     {
       "passed": true,
@@ -938,18 +902,6 @@
     },
     {
       "passed": true,
-      "message": "Tool detail Microsoft Lists 768"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Lists 768"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Lists 768"
-    },
-    {
-      "passed": true,
       "message": "Tool detail SharePoint 768"
     },
     {
@@ -1007,18 +959,6 @@
     {
       "passed": true,
       "message": "Tool focus returns Redshift 768"
-    },
-    {
-      "passed": true,
-      "message": "Tool detail Microsoft Teams 768"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Teams 768"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Teams 768"
     },
     {
       "passed": true,
@@ -1094,7 +1034,11 @@
     },
     {
       "passed": true,
-      "message": "Separate twelve technology tools 390"
+      "message": "Separate ten technology tools 390"
+    },
+    {
+      "passed": true,
+      "message": "Teams and Lists removed 390"
     },
     {
       "passed": true,
@@ -1298,18 +1242,6 @@
     },
     {
       "passed": true,
-      "message": "Tool detail Microsoft Lists 390"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Lists 390"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Lists 390"
-    },
-    {
-      "passed": true,
       "message": "Tool detail SharePoint 390"
     },
     {
@@ -1367,18 +1299,6 @@
     {
       "passed": true,
       "message": "Tool focus returns Redshift 390"
-    },
-    {
-      "passed": true,
-      "message": "Tool detail Microsoft Teams 390"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Teams 390"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Teams 390"
     },
     {
       "passed": true,
@@ -1454,7 +1374,11 @@
     },
     {
       "passed": true,
-      "message": "Separate twelve technology tools 320"
+      "message": "Separate ten technology tools 320"
+    },
+    {
+      "passed": true,
+      "message": "Teams and Lists removed 320"
     },
     {
       "passed": true,
@@ -1658,18 +1582,6 @@
     },
     {
       "passed": true,
-      "message": "Tool detail Microsoft Lists 320"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Lists 320"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Lists 320"
-    },
-    {
-      "passed": true,
       "message": "Tool detail SharePoint 320"
     },
     {
@@ -1727,18 +1639,6 @@
     {
       "passed": true,
       "message": "Tool focus returns Redshift 320"
-    },
-    {
-      "passed": true,
-      "message": "Tool detail Microsoft Teams 320"
-    },
-    {
-      "passed": true,
-      "message": "Tool credibility Microsoft Teams 320"
-    },
-    {
-      "passed": true,
-      "message": "Tool focus returns Microsoft Teams 320"
     },
     {
       "passed": true,
