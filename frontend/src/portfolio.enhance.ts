@@ -140,19 +140,6 @@ export function enhancePortfolio(root: HTMLElement, navigate: (path: string) => 
     button.classList.add('experience-control');
   });
 
-  const expertise = all<HTMLElement>('#expertise article');
-  const expertiseWrap = expertise[0]?.parentElement?.parentElement;
-  expertiseWrap?.classList.add('expertise-grid');
-  expertise.forEach((article, index) => {
-    article.classList.add(`discipline-${index + 1}`);
-    article.setAttribute('tabindex', '0');
-    article.setAttribute('aria-label', `${article.querySelector('h3')?.textContent} expertise`);
-  });
-  const toolsSection = select<HTMLElement>('section[aria-label="Tools and technology"]');
-  toolsSection?.setAttribute('id', 'tools');
-  const duplicateTools = toolsSection?.querySelectorAll('.animate-marquee > span');
-  duplicateTools?.forEach((badge, index) => { if (index >= 8) badge.remove(); });
-
   const metricTargets = [8, 5, 1];
   const metricLabels = ['8+ years experience', '5 brands', 'Less than 1% rework'];
   const metricContainers = all<HTMLElement>('#impact .font-display');

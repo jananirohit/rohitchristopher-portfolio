@@ -5,7 +5,7 @@ export const portfolioDestinations = [
   { id: 'about', path: '/about', label: 'About', summary: 'The person behind the process.' },
   { id: 'journey', path: '/journey', label: 'Journey', summary: 'From frontline experience to leadership.' },
   { id: 'impact', path: '/impact', label: 'Impact', summary: 'Experience and outcomes, measured honestly.' },
-  { id: 'expertise', path: '/expertise', label: 'Expertise', summary: 'Four disciplines. One mindset.' },
+  { id: 'expertise', path: '/expertise', label: 'Expertise', summary: 'People, process and performance. Technology as an enabler.' },
   { id: 'projects', path: '/projects', label: 'Projects', summary: 'Explore the challenges, approaches and impact.' },
   { id: 'experience', path: '/experience', label: 'Experience', summary: 'Every role built on the last.' },
   { id: 'next', path: '/whats-next', label: 'What’s next', summary: 'An evolving story. A new chapter.' },
@@ -19,9 +19,17 @@ export function portfolioMarkup(destination: DestinationId) {
   const shell = document.body.firstElementChild as HTMLElement;
   const main = shell.querySelector('main')!;
   const current = main.querySelector<HTMLElement>(`#${destination}`)!;
-  const tools = main.querySelector('section[aria-label="Tools and technology"]');
   main.replaceChildren(current);
-  if (destination === 'expertise' && tools) main.append(tools);
+  if (destination === 'expertise') {
+    current.className = 'section-shell expertise-modern';
+    current.innerHTML = '<div class="section-inner"><div id="expertise-react-root"></div></div>';
+    const technology = document.createElement('section');
+    technology.id = 'tools';
+    technology.className = 'technology-modern';
+    technology.setAttribute('aria-label', 'Tools and technology');
+    technology.innerHTML = '<div class="section-inner"><div id="technology-react-root"></div></div>';
+    main.append(technology);
+  }
   current.classList.add('destination-content');
   current.setAttribute('data-destination', destination);
   main.setAttribute('id', 'main-content');
@@ -105,7 +113,7 @@ export function portfolioMarkup(destination: DestinationId) {
       heading.className = `${title.className} page-heading`;
       heading.innerHTML = title.innerHTML;
       title.replaceWith(heading);
-    } else {
+    } else if (destination !== 'expertise') {
       const heading = document.createElement('h1');
       heading.className = 'page-heading impact-heading';
       heading.textContent = 'Experience. Reach. Quality.';

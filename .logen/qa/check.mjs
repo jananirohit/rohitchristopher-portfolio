@@ -55,8 +55,8 @@ for (const width of [1440, 1024, 768, 390, 320]) {
    assert(JSON.stringify(values) === JSON.stringify(['8+','5','<1%']), `Verified metrics at ${width}px`);
   }
   if (id === 'expertise') {
-   assert(await page.locator('#expertise article').count() === 4, `Four discipline areas at ${width}px`);
-   assert(await page.locator('#tools .animate-marquee span').count() === 8, `Eight tools retained at ${width}px`);
+   assert(await page.locator('#expertise .expertise-card').count() === 6, `Six expertise areas at ${width}px`);
+   assert(await page.locator('#tools .technology-pill').count() === 12, `Twelve technology tools at ${width}px`);
   }
   if (id === 'projects') {
    for (const button of await page.locator('#projects button').all()) {

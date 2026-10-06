@@ -1,4 +1,6 @@
-import { useLayoutEffect, useMemo, useRef } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { Expertise, TechnologyStack } from '../components/Expertise';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import { Button } from '../ui';
@@ -29,11 +31,15 @@ export function Home({ destination = 'home' }: { destination?: DestinationId }) 
   const surface = useRef<HTMLDivElement>(null);
   const markup = useMemo(() => portfolioMarkup(destination), [destination]);
   const initialDestination = useRef(true);
+  const [expertiseHost, setExpertiseHost] = useState<HTMLElement | null>(null);
+  const [toolsHost, setToolsHost] = useState<HTMLElement | null>(null);
   useLayoutEffect(() => {
     if (!surface.current) return;
     // React owns the host, while this preserved DOM owns its section controls.
     // Install markup here so an unrelated auth-context rerender cannot reset listeners.
     surface.current.innerHTML = markup;
+    setExpertiseHost(surface.current.querySelector<HTMLElement>('#expertise-react-root'));
+    setToolsHost(surface.current.querySelector<HTMLElement>('#technology-react-root'));
     const cleanup = enhancePortfolio(surface.current, path => navigate(path));
     window.scrollTo({ top: 0, behavior: 'instant' });
     const entry = portfolioDestinations.find(item => item.id === destination)!;
@@ -50,6 +56,8 @@ export function Home({ destination = 'home' }: { destination?: DestinationId }) 
     <>
       <a data-lg-key="863f90939d" className="portfolio-skip" href="#main-content">Skip to content</a>
       <div data-lg-key="4bd72ba001" key={destination} ref={surface} className={`rcj-portfolio destination-${destination}`} />
+      {destination === 'expertise' && expertiseHost && createPortal(<Expertise />, expertiseHost)}
+      {destination === 'expertise' && toolsHost && createPortal(<TechnologyStack />, toolsHost)}
       {user && (
         <aside data-lg-key="1db451d150" className="portfolio-session" aria-label="Account session">
           <span data-lg-key="375378220a">Signed in as {user.email}</span>

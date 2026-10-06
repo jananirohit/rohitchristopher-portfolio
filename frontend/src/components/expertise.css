@@ -1,0 +1,100 @@
+/* Local to Expertise. Existing portfolio tokens, typography and destinations stay intact.
+   Intentionally imageless: capability identities and purposeful interaction carry the design. */
+.rcj-portfolio #expertise.expertise-modern {
+  background: radial-gradient(ellipse at 96% 12%, color-mix(in srgb, var(--violet) 9%, transparent), transparent 52%), var(--background);
+  padding-bottom: 48px;
+}
+.expertise-modern, .technology-modern { --expertise-accent: var(--violet); }
+.expertise-category-people { --expertise-accent: var(--violet); }
+.expertise-category-operations { --expertise-accent: var(--blue); }
+.expertise-category-process { --expertise-accent: var(--coral); }
+.expertise-category-quality { --expertise-accent: var(--magenta); }
+.expertise-category-data { --expertise-accent: var(--cyan); }
+.expertise-category-ai { --expertise-accent: var(--violet); }
+.expertise-intro { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.expertise-intro > div { min-width: 0; }
+.expertise-eyebrow { margin: 0 0 12px; font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; color: var(--violet); }
+.rcj-portfolio #expertise .expertise-heading { font-size: clamp(34px, 3.7vw, 52px); letter-spacing: -.05em; }
+.expertise-support { margin: 14px 0 0; font-size: clamp(15px, 1.4vw, 18px); line-height: 1.7; max-width: 570px; color: var(--muted-foreground); }
+.expertise-thesis { border-left: 2px solid var(--violet); padding: 12px 0 12px 22px; flex-shrink: 0; }
+.expertise-thesis p { display: flex; gap: 9px; align-items: center; margin: 0; font-size: 10px; letter-spacing: .055em; }
+.expertise-thesis strong:nth-of-type(1) { color: var(--violet); }
+.expertise-thesis strong:nth-of-type(2) { color: var(--magenta); }
+.expertise-thesis strong:nth-of-type(3) { color: var(--coral); }
+.expertise-thesis p > span { color: var(--muted-foreground); }
+.expertise-thesis > span { display: block; margin-top: 8px; color: var(--muted-foreground); font-size: 12px; }
+.expertise-instruction { font-size: 12px; color: var(--muted-foreground); margin: 30px 0 16px; }
+.expertise-capability-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.expertise-capability-grid > * { min-width: 0; }
+.expertise-card { position: relative; display: flex; flex-direction: column; gap: 0; padding: 0; overflow: hidden; border: 1px solid color-mix(in srgb, var(--expertise-accent) 16%, var(--border)); border-radius: 16px; background: linear-gradient(135deg, var(--card), color-mix(in srgb, var(--expertise-accent) 6%, var(--card))); box-shadow: 0 4px 20px color-mix(in srgb, var(--foreground) 3%, transparent); transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.expertise-card::before { content: ''; height: 3px; position: absolute; inset: 0 0 auto; background: linear-gradient(90deg, var(--expertise-accent), color-mix(in srgb, var(--expertise-accent) 20%, transparent)); }
+.expertise-card:hover, .expertise-card:focus-within { transform: translateY(-4px); border-color: color-mix(in srgb, var(--expertise-accent) 65%, var(--border)); box-shadow: 0 12px 28px color-mix(in srgb, var(--expertise-accent) 11%, transparent); }
+.expertise-card-header { display: flex; flex-direction: column; gap: 0; padding: 25px 25px 18px; }
+.expertise-card-identity { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 22px; }
+.expertise-icon { width: 43px; height: 43px; display: grid; place-items: center; color: var(--expertise-accent); border: 1px solid color-mix(in srgb, var(--expertise-accent) 16%, transparent); background: color-mix(in srgb, var(--expertise-accent) 7%, var(--card)); border-radius: 12px; }
+.expertise-icon svg { transition: transform .35s cubic-bezier(.2,.65,.3,1); }
+.expertise-card:hover .expertise-icon svg, .expertise-card:focus-within .expertise-icon svg { transform: translateY(-2px) rotate(-7deg); }
+.expertise-indicator { display: flex; gap: 6px; align-items: center; color: var(--muted-foreground); font-size: 10px; line-height: 1.4; }
+.expertise-indicator i { height: 5px; width: 5px; flex-shrink: 0; border-radius: 50%; background: var(--expertise-accent); }
+.rcj-portfolio #expertise .expertise-card-title { font-size: clamp(17px, 1.65vw, 22px); letter-spacing: -.025em; line-height: 1.25; margin: 0 0 12px; font-weight: 700; color: var(--foreground); }
+.expertise-card-description { font-size: 13px; line-height: 1.75; color: var(--muted-foreground); }
+.expertise-card-footer { display: flex; justify-content: space-between; align-items: center; padding: 16px 25px 19px; margin-top: auto; border-top: 1px solid color-mix(in srgb, var(--expertise-accent) 9%, transparent); color: var(--expertise-accent); font-size: 11px; font-weight: 600; }
+.expertise-card-footer svg { transition: transform .22s ease; }
+.expertise-card:hover .expertise-card-footer svg { transform: translate(2px, -2px); }
+.rcj-portfolio #expertise .expertise-card-trigger { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; border-radius: inherit; background: transparent; padding: 0; }
+.rcj-portfolio #expertise .expertise-card-trigger:hover { background: transparent; }
+.rcj-portfolio #expertise .expertise-card-trigger:focus-visible { outline: 3px solid var(--expertise-accent); outline-offset: -5px; box-shadow: none; }
+.expertise-card.expertise-category-ai { color: var(--primary-foreground); background: radial-gradient(ellipse at 100% 0%, color-mix(in srgb, var(--violet) 50%, transparent), transparent 70%), var(--foreground); border-color: color-mix(in srgb, var(--violet) 65%, var(--foreground)); box-shadow: 0 7px 25px color-mix(in srgb, var(--violet) 16%, transparent); }
+.expertise-card.expertise-category-ai::before { background: var(--brand-gradient); }
+.expertise-card.expertise-category-ai .expertise-icon { background: color-mix(in srgb, var(--primary-foreground) 8%, transparent); color: color-mix(in srgb, var(--violet) 22%, var(--primary-foreground)); border-color: color-mix(in srgb, var(--primary-foreground) 16%, transparent); }
+.rcj-portfolio #expertise .expertise-category-ai .expertise-card-title { color: var(--primary-foreground); }
+.expertise-card.expertise-category-ai :is(.expertise-card-description, .expertise-indicator) { color: color-mix(in srgb, var(--primary-foreground) 85%, var(--violet)); }
+.expertise-card.expertise-category-ai .expertise-indicator i { background: color-mix(in srgb, var(--coral) 45%, var(--primary-foreground)); }
+.expertise-card.expertise-category-ai .expertise-card-footer { color: var(--primary-foreground); border-color: color-mix(in srgb, var(--primary-foreground) 14%, transparent); }
+.expertise-positioning { color: var(--muted-foreground); font-size: 13px; line-height: 1.85; max-width: 800px; margin: 26px 0 0; }
+/* Detail views are kit dialogs: focus trap, Escape and return-to-trigger built in. */
+.technology-dialog { --expertise-accent: var(--violet); }
+.expertise-dialog { font-family: var(--font-sans); color: var(--foreground); background: var(--card); border: 1px solid var(--border); border-top: 3px solid var(--expertise-accent); padding: 30px; border-radius: 17px; width: min(560px, calc(100vw - 32px)); max-width: 560px; max-height: calc(100dvh - 40px); overflow-y: auto; gap: 21px; }
+.expertise-dialog [data-slot="dialog-header"] { text-align: left; gap: 11px; }
+.expertise-dialog-eyebrow { color: var(--expertise-accent); text-transform: uppercase; font-size: 10px; font-weight: 700; letter-spacing: .1em; padding-right: 20px; }
+.expertise-dialog-title { font-size: clamp(21px, 3vw, 27px); letter-spacing: -.035em; line-height: 1.25; padding-right: 20px; }
+.expertise-dialog-description { font-size: 14px; line-height: 1.8; color: var(--muted-foreground); }
+.expertise-capabilities { list-style: none; display: grid; gap: 7px; padding: 0; margin: 0; }
+.expertise-capabilities li { display: flex; align-items: center; gap: 12px; font-size: 14px; line-height: 1.5; padding: 10px 13px; background: color-mix(in srgb, var(--expertise-accent) 5%, var(--card)); border-radius: 7px; }
+.expertise-capabilities svg { flex-shrink: 0; color: var(--expertise-accent); }
+.expertise-practical-note { font-size: 12px; line-height: 1.8; color: var(--muted-foreground); border-left: 2px solid var(--expertise-accent); padding-left: 14px; margin: 0; }
+.expertise-dialog-return { color: var(--foreground); white-space: normal; min-height: 42px; height: auto; padding-block: 10px; }
+.rcj-portfolio #tools.technology-modern { padding: 42px var(--page-gutter) 60px; background: color-mix(in srgb, var(--violet) 4%, var(--background)); border-top: 1px solid var(--border); }
+.technology-intro { display: flex; align-items: end; justify-content: space-between; gap: 30px; }
+.technology-intro > div { min-width: 0; }
+.rcj-portfolio #tools.technology-modern .technology-heading { font-size: clamp(23px, 2.5vw, 32px); letter-spacing: -.035em; line-height: 1.2; }
+.technology-intro > p { max-width: 450px; margin: 0; font-size: 13px; line-height: 1.8; color: var(--muted-foreground); }
+.technology-pills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 27px; }
+.rcj-portfolio #tools.technology-modern span { background: transparent; border: 0; color: inherit; transform: none; }
+.technology-pill { height: auto; min-height: 44px; max-width: 100%; padding: 11px 15px; border-radius: 10px; background: var(--card); border-color: var(--border); color: var(--foreground); font-size: 12px; line-height: 1.5; gap: 9px; white-space: normal; text-align: left; box-shadow: none; transition: transform .22s ease, border-color .22s ease, background .22s ease; }
+.technology-pill > svg:first-child { color: var(--muted-foreground); }
+.technology-pill > svg:last-child { color: var(--violet); }
+.technology-pill.technology-enabler { border-color: color-mix(in srgb, var(--violet) 28%, var(--border)); background: color-mix(in srgb, var(--violet) 4%, var(--card)); }
+.technology-pill:hover { transform: translateY(-3px); color: var(--foreground); border-color: var(--violet); background: var(--card); }
+.technology-note { margin: 23px 0 0; color: var(--muted-foreground); font-size: 11px; line-height: 1.8; }
+@media (prefers-reduced-motion: reduce) {
+  .expertise-dialog, .expertise-dialog *, [data-slot="dialog-overlay"] { animation: none !important; transition: none !important; }
+}
+@media (max-width: 1000px) {
+  .expertise-intro { align-items: start; flex-direction: column; gap: 20px; }
+  .expertise-thesis { border-left: none; border-bottom: 1px solid var(--border); padding: 0 0 15px; width: 100%; }
+  .expertise-thesis > span { font-size: 11px; }
+  .expertise-capability-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .technology-intro { align-items: start; flex-direction: column; gap: 16px; }
+}
+@media (max-width: 540px) {
+  .expertise-capability-grid { grid-template-columns: minmax(0, 1fr); gap: 13px; }
+  .expertise-card-header { padding: 22px 22px 17px; }
+  .expertise-card-identity { margin-bottom: 16px; }
+  .expertise-card-footer { padding-inline: 22px; }
+  .expertise-dialog { padding: 25px 20px; gap: 18px; }
+  .expertise-capabilities li { font-size: 13px; }
+  .expertise-thesis p { gap: 6px; font-size: 9px; letter-spacing: .025em; }
+  .technology-pills { gap: 8px; }
+  .technology-pill { font-size: 11px; padding-inline: 11px; }
+}
