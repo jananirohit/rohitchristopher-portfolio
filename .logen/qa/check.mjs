@@ -1,6 +1,6 @@
 import { chromium } from './node_modules/playwright/index.mjs';
 import { mkdir, writeFile } from 'node:fs/promises';
-const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+const browser = await chromium.launch({ headless: true, executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
 const report = [];
 const errors = [];
 const assert = (condition, message) => { report.push({ passed: Boolean(condition), message }); if (!condition) errors.push(message); };

@@ -31,6 +31,9 @@ export function Home({ destination = 'home' }: { destination?: DestinationId }) 
   const initialDestination = useRef(true);
   useLayoutEffect(() => {
     if (!surface.current) return;
+    // React owns the host, while this preserved DOM owns its section controls.
+    // Install markup here so an unrelated auth-context rerender cannot reset listeners.
+    surface.current.innerHTML = markup;
     const cleanup = enhancePortfolio(surface.current, path => navigate(path));
     window.scrollTo({ top: 0, behavior: 'instant' });
     const entry = portfolioDestinations.find(item => item.id === destination)!;
@@ -42,11 +45,11 @@ export function Home({ destination = 'home' }: { destination?: DestinationId }) 
     }
     initialDestination.current = false;
     return cleanup;
-  }, [destination, navigate]);
+  }, [destination, navigate, markup]);
   return (
     <>
       <a data-lg-key="863f90939d" className="portfolio-skip" href="#main-content">Skip to content</a>
-      <div data-lg-key="4bd72ba001" key={destination} ref={surface} className={`rcj-portfolio destination-${destination}`} dangerouslySetInnerHTML={{ __html: markup }} />
+      <div data-lg-key="4bd72ba001" key={destination} ref={surface} className={`rcj-portfolio destination-${destination}`} />
       {user && (
         <aside data-lg-key="1db451d150" className="portfolio-session" aria-label="Account session">
           <span data-lg-key="375378220a">Signed in as {user.email}</span>
