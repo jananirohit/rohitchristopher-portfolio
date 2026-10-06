@@ -51,37 +51,37 @@ export function Uploads() {
   }
 
   return (
-    <div>
+    <div data-lg-key="70874a877f">
       <PageHeader title="Files" subtitle="Uploads are stored on the app's own disk and served back from /api/uploads." />
 
       <Card>
-        <form className="flex flex-wrap items-center gap-3" onSubmit={onSubmit}>
-          <input ref={fileRef} type="file" className="text-muted-foreground file:text-foreground file:mr-3 file:rounded-md file:border file:bg-background file:px-3 file:py-1.5 file:text-sm text-sm" name="file" />
+        <form data-lg-key="f648778d10" className="flex flex-wrap items-center gap-3" onSubmit={onSubmit}>
+          <input data-lg-key="fff1d9356c" ref={fileRef} type="file" className="text-muted-foreground file:text-foreground file:mr-3 file:rounded-md file:border file:bg-background file:px-3 file:py-1.5 file:text-sm text-sm" name="file" />
           <Button type="submit" disabled={busy}>
             {busy ? "Uploading…" : "Upload"}
           </Button>
         </form>
-        {error && <p className="text-destructive mt-2 text-sm">{error}</p>}
-        <p className="text-muted-foreground mt-2 text-sm">Up to 10 MB — png, jpg, gif, webp, pdf, txt or csv.</p>
+        {error && <p data-lg-key="546646fc79" className="text-destructive mt-2 text-sm">{error}</p>}
+        <p data-lg-key="161cb62b2b" className="text-muted-foreground mt-2 text-sm">Up to 10 MB — png, jpg, gif, webp, pdf, txt or csv.</p>
       </Card>
 
-      <div className="mt-10">
+      <div data-lg-key="d00f8bf0e9" className="mt-10">
         {uploads === null ? (
           <Spinner />
         ) : uploads.length === 0 ? (
           <EmptyState icon="📁" title="No files yet" description="Upload one above to see it here." />
         ) : (
-          <ul className="divide-y rounded-xl border">
+          <ul data-lg-key="647fb5cc9c" className="divide-y rounded-xl border">
             {uploads.map((u) => (
-              <li key={u.id} className="flex items-center gap-4 p-4">
+              <li data-lg-key="e847eadd72" key={u.id} className="flex items-center gap-4 p-4">
                 {u.content_type.startsWith("image/") && (
-                  <img className="size-12 shrink-0 rounded-md border object-cover" src={u.url} alt={u.original_name} />
+                  <img data-lg-key="8e7ead0163" className="size-12 shrink-0 rounded-md border object-cover" src={u.url} alt={u.original_name} />
                 )}
-                <div className="min-w-0 flex-1">
-                  <a href={u.url} target="_blank" rel="noreferrer">
+                <div data-lg-key="b27f43ac1c" className="min-w-0 flex-1">
+                  <a data-lg-key="6236bb2660" href={u.url} target="_blank" rel="noreferrer">
                     {u.original_name}
                   </a>
-                  <p className="text-muted-foreground mt-1 text-xs">
+                  <p data-lg-key="48e46b4ce8" className="text-muted-foreground mt-1 text-xs">
                     {formatBytes(u.byte_size)} · {new Date(u.inserted_at).toLocaleString()}
                   </p>
                 </div>

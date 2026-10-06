@@ -1,0 +1,10 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const html = await readFile('.logen/reference-portfolio/original.html', 'utf8');
+const sections = [...html.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/section>/g)];
+const clean = value => value.replace(/<script\b[\s\S]*?<\/script>/g, '').replace(/<style\b[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+let text = sections.map(([, id, body]) => `\n## ${id}\n${clean(body)}`).join('\n');
+text += '\n\n## LINKS\n' + [...html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map(([, href, body]) => `${clean(body)}: ${href}`).join('\n');
+text += '\n\n## IMAGES\n' + [...html.matchAll(/<img\b[^>]*>/g)].map(match => match[0]).join('\n');
+text += '\n\n## SCRIPTS\n' + [...html.matchAll(/<script\b[^>]*src="([^"]+)"/g)].map(match => match[1]).join('\n');
+await writeFile('.logen/reference-portfolio/content.txt', text);
+console.log(text);

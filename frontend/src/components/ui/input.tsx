@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils"
 
 function Input({ className, type, ...props }: React.ComponentProps<"input">) {
   return (
-    <input
+    <input data-lg-key="1e0b962090"
       type={type}
       data-slot="input"
       className={cn(

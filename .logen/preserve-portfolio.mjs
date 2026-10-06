@@ -1,0 +1,14 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const html = await readFile('.logen/reference-portfolio/original.html', 'utf8');
+const bodyStart = html.indexOf('<body>') + '<body>'.length;
+const footerEnd = html.indexOf('</footer>', bodyStart) + '</footer>'.length;
+if (bodyStart < 6 || footerEnd < 9) throw new Error('Original portfolio structure not found');
+let markup = html.slice(bodyStart, footerEnd) + '</div>';
+markup = markup.replace(/<!--\/?\$-->/g, '');
+await writeFile('frontend/src/portfolio.original.html', markup);
+const hero = markup.match(/<section\b[^>]*id="home"[\s\S]*?<\/section>/)?.[0] || '';
+console.log('Preserved original section markup, without third-party tracking, hosting badge or router bootstrap.');
+console.log('HERO VISUAL:', hero.slice(hero.indexOf('style="animation-delay:500ms"') + 1400));
+console.log('PROJECT BUTTON:', markup.match(/<section\b[^>]*id="projects"[\s\S]*?<\/button>/)?.[0]);
+console.log('EXPERIENCE BUTTON:', markup.match(/<section\b[^>]*id="experience"[\s\S]*?<\/button>/)?.[0]);
+console.log('NEXT:', markup.match(/<section\b[^>]*id="next"[\s\S]*?<\/section>/)?.[0]);

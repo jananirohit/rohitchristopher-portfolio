@@ -1,0 +1,13 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const html = await readFile('.logen/reference-portfolio/original.html', 'utf8');
+console.log('HEAD:', html.slice(0, html.indexOf('</head>') + 7));
+console.log('SECTION STRUCTURE:');
+for (const match of html.matchAll(/<(?:header|nav|section|footer)\b[^>]*>/g)) console.log(match[0]);
+console.log('HOME:', html.match(/<section\b[^>]*id="home"[\s\S]*?<\/section>/)?.[0]);
+console.log('TOOLS:', html.slice(Math.max(0, html.indexOf('Power BI') - 2500), html.indexOf('id="experience"')));
+const bundle = await readFile('.logen/reference-portfolio/bundle-1.js', 'utf8');
+const start = bundle.indexOf('Frontline technical support');
+const end = bundle.lastIndexOf('createRoot');
+await writeFile('.logen/reference-portfolio/app-excerpt.txt', bundle.slice(Math.max(0,start-12000)));
+console.log('BUNDLE TAIL:', bundle.slice(-5000));
+console.log('ASSET PATHS:', [...new Set([...bundle.matchAll(/["'`]([^"'`]*\.(?:png|jpg|jpeg|webp|svg|pdf|css))["'`]/g)].map(x => x[1]))]);

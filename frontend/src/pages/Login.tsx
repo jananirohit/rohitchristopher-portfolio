@@ -41,20 +41,20 @@ export function Login() {
   }
 
   return (
-    <div style={{ maxWidth: 400, margin: "0 auto" }}>
+    <div data-lg-key="8fd7e3a216" style={{ maxWidth: 400, margin: "0 auto" }}>
       <Card>
-        <h1 style={{ marginBottom: 4 }}>{mode === "login" ? "Sign in" : "Create account"}</h1>
-        <p className="text-muted-foreground mt-0 mb-5 text-sm">
+        <h1 data-lg-key="86d69f3e12" style={{ marginBottom: 4 }}>{mode === "login" ? "Sign in" : "Create account"}</h1>
+        <p data-lg-key="9183ab8a1e" className="text-muted-foreground mt-0 mb-5 text-sm">
           {mode === "login" ? "Welcome back." : "Get started with a new account."}
         </p>
-        <form onSubmit={onSubmit} style={{ display: "grid", gap: 14 }}>
+        <form data-lg-key="70b455ed0a" onSubmit={onSubmit} style={{ display: "grid", gap: 14 }}>
           {mode === "register" && (
-            <div className="grid gap-2">
+            <div data-lg-key="e7cab5926b" className="grid gap-2">
               <Label htmlFor="name">Name</Label>
               <Input id="name" value={name} onChange={(e) => setName(e.target.value)} />
             </div>
           )}
-          <div className="grid gap-2">
+          <div data-lg-key="41b11026e3" className="grid gap-2">
             <Label htmlFor="email">Email</Label>
             <Input
               id="email"
@@ -64,7 +64,7 @@ export function Login() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="grid gap-2">
+          <div data-lg-key="0e8cef1167" className="grid gap-2">
             <Label htmlFor="password">Password</Label>
             <Input
               id="password"
@@ -76,13 +76,13 @@ export function Login() {
               onChange={(e) => setPassword(e.target.value)}
               aria-invalid={!!error}
             />
-            {error && <p className="text-destructive text-sm">{error}</p>}
+            {error && <p data-lg-key="30f0447bd8" className="text-destructive text-sm">{error}</p>}
           </div>
           <Button type="submit" disabled={busy}>
             {busy ? "…" : mode === "login" ? "Sign in" : "Create account"}
           </Button>
         </form>
-        <div style={{ textAlign: "center", marginTop: 12 }}>
+        <div data-lg-key="01485f763c" style={{ textAlign: "center", marginTop: 12 }}>
           <Button
             variant="ghost"
             size="sm"

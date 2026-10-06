@@ -5,7 +5,7 @@ import { Slot } from "radix-ui"
 
 function BubbleGroup({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div
+    <div data-lg-key="ffc796fef9"
       data-slot="bubble-group"
       className={cn("flex min-w-0 flex-col gap-2", className)}
       {...props}
@@ -50,7 +50,7 @@ function Bubble({
     align?: "start" | "end"
   }) {
   return (
-    <div
+    <div data-lg-key="a3c62d1054"
       data-slot="bubble"
       data-variant={variant}
       data-align={align}
@@ -111,7 +111,7 @@ function BubbleReactions({
   side?: "top" | "bottom"
 }) {
   return (
-    <div
+    <div data-lg-key="ce6c63e641"
       data-slot="bubble-reactions"
       data-align={align}
       data-side={side}

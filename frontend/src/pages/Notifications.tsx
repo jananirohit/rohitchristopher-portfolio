@@ -89,16 +89,16 @@ export function Notifications() {
           </>
         }
     >
-      <ul className="divide-y rounded-xl border">
+      <ul data-lg-key="19b70a112b" className="divide-y rounded-xl border">
           {(items ?? []).map((n) => (
-            <li key={n.id} className={`list-item ${n.read_at ? "" : "list-item-unread"}`.trim()}>
-              <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-2">
-                  <strong>{n.title}</strong>
+            <li data-lg-key="02387bf2df" key={n.id} className={`list-item ${n.read_at ? "" : "list-item-unread"}`.trim()}>
+              <div data-lg-key="996f362490" className="min-w-0 flex-1">
+                <div data-lg-key="58a15c9e3a" className="flex items-center gap-2">
+                  <strong data-lg-key="19582f222d">{n.title}</strong>
                   <Badge variant={variantFor(n.type)}>{n.type}</Badge>
                 </div>
-                {n.body && <p className="text-muted-foreground mt-1 text-sm">{n.body}</p>}
-                <p className="text-muted-foreground mt-1 text-xs">{new Date(n.inserted_at).toLocaleString()}</p>
+                {n.body && <p data-lg-key="55c34e7e4c" className="text-muted-foreground mt-1 text-sm">{n.body}</p>}
+                <p data-lg-key="f259a5da72" className="text-muted-foreground mt-1 text-xs">{new Date(n.inserted_at).toLocaleString()}</p>
               </div>
               {!n.read_at && (
                 <Button

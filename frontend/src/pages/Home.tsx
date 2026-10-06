@@ -1,7 +1,10 @@
-import { Link } from "react-router-dom";
-
-import { useAuth } from "../auth/AuthContext";
-import { Button } from "../ui";
+import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { useAuth } from '../auth/AuthContext';
+import { Button } from '../ui';
+import originalMarkup from '../portfolio.original.html?raw';
+import { enhancePortfolio } from '../portfolio.enhance';
+import '../portfolio.css';
 
 // Auth-DORMANT, not auth-blind. Two constraints hold at once here:
 //
@@ -22,25 +25,21 @@ import { Button } from "../ui";
 // primary signed-in surface actually is.
 export function Home() {
   const { user } = useAuth();
-
+  const surface = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!surface.current) return;
+    return enhancePortfolio(surface.current);
+  }, []);
   return (
-    <div className="bg-background text-foreground min-h-screen">
-      <main className="mx-auto grid max-w-6xl gap-4 px-6 py-16">
-        <h1 className="text-3xl font-semibold tracking-tight">Building your app…</h1>
-        <p className="text-muted-foreground">
-          This page is a placeholder. Your app is still being built — it will replace this
-          the moment the first screen is ready.
-        </p>
-
-        {user && (
-          <div className="flex flex-wrap items-center gap-3 pt-2">
-            <Button asChild>
-              <Link to="/dashboard">Open the app</Link>
-            </Button>
-            <span className="text-muted-foreground text-sm">Signed in as {user.email}</span>
-          </div>
-        )}
-      </main>
-    </div>
+    <>
+      <a data-lg-key="863f90939d" className="portfolio-skip" href="#main-content">Skip to content</a>
+      <div data-lg-key="4bd72ba001" ref={surface} className="rcj-portfolio" dangerouslySetInnerHTML={{ __html: originalMarkup }} />
+      {user && (
+        <aside data-lg-key="1db451d150" className="portfolio-session" aria-label="Account session">
+          <span data-lg-key="375378220a">Signed in as {user.email}</span>
+          <Button asChild variant="outline"><Link to="/dashboard">Open the app</Link></Button>
+        </aside>
+      )}
+    </>
   );
 }

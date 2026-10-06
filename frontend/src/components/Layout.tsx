@@ -9,13 +9,13 @@ export function Layout() {
   const unread = useUnreadCount();
 
   return (
-    <div className="bg-background text-foreground min-h-screen">
-      <header className="border-b">
-        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-6">
+    <div data-lg-key="3bfbb5bc34" className="bg-background text-foreground min-h-screen">
+      <header data-lg-key="33ddd6e8ff" className="border-b">
+        <div data-lg-key="e223851ff6" className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-6">
           <Link to="/" className="font-semibold tracking-tight">
             go-react starter
           </Link>
-          <nav className="text-muted-foreground flex items-center gap-5 text-sm">
+          <nav data-lg-key="39776ddf93" className="text-muted-foreground flex items-center gap-5 text-sm">
             <Link className="hover:text-foreground transition-colors" to="/">
               Home
             </Link>
@@ -50,7 +50,7 @@ export function Layout() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-10">
+      <main data-lg-key="842457bd26" className="mx-auto max-w-6xl px-6 py-10">
         <Outlet />
       </main>
     </div>
