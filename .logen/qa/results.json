@@ -158,11 +158,11 @@
     },
     {
       "passed": true,
-      "message": "Four discipline areas at 1440px"
+      "message": "Six expertise areas at 1440px"
     },
     {
       "passed": true,
-      "message": "Eight tools retained at 1440px"
+      "message": "Twelve technology tools at 1440px"
     },
     {
       "passed": true,
@@ -502,11 +502,11 @@
     },
     {
       "passed": true,
-      "message": "Four discipline areas at 1024px"
+      "message": "Six expertise areas at 1024px"
     },
     {
       "passed": true,
-      "message": "Eight tools retained at 1024px"
+      "message": "Twelve technology tools at 1024px"
     },
     {
       "passed": true,
@@ -866,11 +866,11 @@
     },
     {
       "passed": true,
-      "message": "Four discipline areas at 768px"
+      "message": "Six expertise areas at 768px"
     },
     {
       "passed": true,
-      "message": "Eight tools retained at 768px"
+      "message": "Twelve technology tools at 768px"
     },
     {
       "passed": true,
@@ -1230,11 +1230,11 @@
     },
     {
       "passed": true,
-      "message": "Four discipline areas at 390px"
+      "message": "Six expertise areas at 390px"
     },
     {
       "passed": true,
-      "message": "Eight tools retained at 390px"
+      "message": "Twelve technology tools at 390px"
     },
     {
       "passed": true,
@@ -1594,11 +1594,11 @@
     },
     {
       "passed": true,
-      "message": "Four discipline areas at 320px"
+      "message": "Six expertise areas at 320px"
     },
     {
       "passed": true,
-      "message": "Eight tools retained at 320px"
+      "message": "Twelve technology tools at 320px"
     },
     {
       "passed": true,

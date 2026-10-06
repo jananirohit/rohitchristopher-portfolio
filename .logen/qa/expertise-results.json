@@ -1,0 +1,1778 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "message": "Correct heading 1440"
+    },
+    {
+      "passed": true,
+      "message": "Exact support line 1440"
+    },
+    {
+      "passed": true,
+      "message": "Six capability cards 1440"
+    },
+    {
+      "passed": true,
+      "message": "Separate twelve technology tools 1440"
+    },
+    {
+      "passed": true,
+      "message": "Details hidden until requested 1440"
+    },
+    {
+      "passed": true,
+      "message": "No page overflow 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct PEOPLE detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PEOPLE capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete PEOPLE list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PEOPLE 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PEOPLE 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PEOPLE 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PEOPLE 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct OPERATIONS detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied OPERATIONS capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete OPERATIONS list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters OPERATIONS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped OPERATIONS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits OPERATIONS 1440"
+    },
+    {
+      "passed": false,
+      "message": "Focus restored OPERATIONS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct PROCESS detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PROCESS capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete PROCESS list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PROCESS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PROCESS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PROCESS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PROCESS 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct QUALITY detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied QUALITY capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete QUALITY list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters QUALITY 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped QUALITY 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits QUALITY 1440"
+    },
+    {
+      "passed": false,
+      "message": "Focus restored QUALITY 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct DATA detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied DATA capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete DATA list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters DATA 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped DATA 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits DATA 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored DATA 1440"
+    },
+    {
+      "passed": true,
+      "message": "Correct AI & TRANSFORMATION detail title 1440"
+    },
+    {
+      "passed": true,
+      "message": "All supplied AI & TRANSFORMATION capabilities exact 1440"
+    },
+    {
+      "passed": true,
+      "message": "Complete AI & TRANSFORMATION list 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters AI & TRANSFORMATION 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped AI & TRANSFORMATION 1440"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits AI & TRANSFORMATION 1440"
+    },
+    {
+      "passed": true,
+      "message": "AI credibility disclaimer 1440"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored AI & TRANSFORMATION 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power BI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power BI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power BI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Lists 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Lists 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Lists 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail SharePoint 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility SharePoint 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns SharePoint 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power Automate 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power Automate 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power Automate 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Excel 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Excel 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Excel 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Salesforce 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Salesforce 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Salesforce 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Redshift 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Redshift 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Redshift 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Teams 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Teams 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Teams 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Generative AI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Generative AI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Generative AI 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail AI Productivity Tools 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility AI Productivity Tools 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns AI Productivity Tools 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud Platforms 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud Platforms 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud Platforms 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud-based Business Applications 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud-based Business Applications 1440"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud-based Business Applications 1440"
+    },
+    {
+      "passed": true,
+      "message": "No invented ratings or credentials 1440"
+    },
+    {
+      "passed": true,
+      "message": "No runtime errors 1440: "
+    },
+    {
+      "passed": false,
+      "message": "No accessibility console warnings 1440: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+    },
+    {
+      "passed": true,
+      "message": "Correct heading 1024"
+    },
+    {
+      "passed": true,
+      "message": "Exact support line 1024"
+    },
+    {
+      "passed": true,
+      "message": "Six capability cards 1024"
+    },
+    {
+      "passed": true,
+      "message": "Separate twelve technology tools 1024"
+    },
+    {
+      "passed": true,
+      "message": "Details hidden until requested 1024"
+    },
+    {
+      "passed": true,
+      "message": "No page overflow 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct PEOPLE detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PEOPLE capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete PEOPLE list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PEOPLE 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PEOPLE 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PEOPLE 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PEOPLE 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct OPERATIONS detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied OPERATIONS capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete OPERATIONS list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters OPERATIONS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped OPERATIONS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits OPERATIONS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored OPERATIONS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct PROCESS detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PROCESS capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete PROCESS list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PROCESS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PROCESS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PROCESS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PROCESS 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct QUALITY detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied QUALITY capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete QUALITY list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters QUALITY 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped QUALITY 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits QUALITY 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored QUALITY 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct DATA detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied DATA capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete DATA list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters DATA 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped DATA 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits DATA 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored DATA 1024"
+    },
+    {
+      "passed": true,
+      "message": "Correct AI & TRANSFORMATION detail title 1024"
+    },
+    {
+      "passed": true,
+      "message": "All supplied AI & TRANSFORMATION capabilities exact 1024"
+    },
+    {
+      "passed": true,
+      "message": "Complete AI & TRANSFORMATION list 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters AI & TRANSFORMATION 1024"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped AI & TRANSFORMATION 1024"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits AI & TRANSFORMATION 1024"
+    },
+    {
+      "passed": true,
+      "message": "AI credibility disclaimer 1024"
+    },
+    {
+      "passed": false,
+      "message": "Focus restored AI & TRANSFORMATION 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power BI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power BI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power BI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Lists 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Lists 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Lists 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail SharePoint 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility SharePoint 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns SharePoint 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power Automate 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power Automate 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power Automate 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Excel 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Excel 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Excel 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Salesforce 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Salesforce 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Salesforce 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Redshift 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Redshift 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Redshift 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Teams 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Teams 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Teams 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Generative AI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Generative AI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Generative AI 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail AI Productivity Tools 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility AI Productivity Tools 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns AI Productivity Tools 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud Platforms 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud Platforms 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud Platforms 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud-based Business Applications 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud-based Business Applications 1024"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud-based Business Applications 1024"
+    },
+    {
+      "passed": true,
+      "message": "No invented ratings or credentials 1024"
+    },
+    {
+      "passed": true,
+      "message": "No runtime errors 1024: "
+    },
+    {
+      "passed": false,
+      "message": "No accessibility console warnings 1024: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+    },
+    {
+      "passed": true,
+      "message": "Correct heading 768"
+    },
+    {
+      "passed": true,
+      "message": "Exact support line 768"
+    },
+    {
+      "passed": true,
+      "message": "Six capability cards 768"
+    },
+    {
+      "passed": true,
+      "message": "Separate twelve technology tools 768"
+    },
+    {
+      "passed": true,
+      "message": "Details hidden until requested 768"
+    },
+    {
+      "passed": true,
+      "message": "No page overflow 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct PEOPLE detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PEOPLE capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete PEOPLE list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PEOPLE 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PEOPLE 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PEOPLE 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PEOPLE 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct OPERATIONS detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied OPERATIONS capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete OPERATIONS list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters OPERATIONS 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped OPERATIONS 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits OPERATIONS 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored OPERATIONS 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct PROCESS detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PROCESS capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete PROCESS list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PROCESS 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PROCESS 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PROCESS 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PROCESS 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct QUALITY detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied QUALITY capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete QUALITY list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters QUALITY 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped QUALITY 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits QUALITY 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored QUALITY 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct DATA detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied DATA capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete DATA list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters DATA 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped DATA 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits DATA 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored DATA 768"
+    },
+    {
+      "passed": true,
+      "message": "Correct AI & TRANSFORMATION detail title 768"
+    },
+    {
+      "passed": true,
+      "message": "All supplied AI & TRANSFORMATION capabilities exact 768"
+    },
+    {
+      "passed": true,
+      "message": "Complete AI & TRANSFORMATION list 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters AI & TRANSFORMATION 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped AI & TRANSFORMATION 768"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits AI & TRANSFORMATION 768"
+    },
+    {
+      "passed": true,
+      "message": "AI credibility disclaimer 768"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored AI & TRANSFORMATION 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power BI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power BI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power BI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Lists 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Lists 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Lists 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail SharePoint 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility SharePoint 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns SharePoint 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power Automate 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power Automate 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power Automate 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Excel 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Excel 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Excel 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Salesforce 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Salesforce 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Salesforce 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Redshift 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Redshift 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Redshift 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Teams 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Teams 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Teams 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Generative AI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Generative AI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Generative AI 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail AI Productivity Tools 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility AI Productivity Tools 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns AI Productivity Tools 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud Platforms 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud Platforms 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud Platforms 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud-based Business Applications 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud-based Business Applications 768"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud-based Business Applications 768"
+    },
+    {
+      "passed": true,
+      "message": "No invented ratings or credentials 768"
+    },
+    {
+      "passed": true,
+      "message": "No runtime errors 768: "
+    },
+    {
+      "passed": false,
+      "message": "No accessibility console warnings 768: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+    },
+    {
+      "passed": true,
+      "message": "Correct heading 390"
+    },
+    {
+      "passed": true,
+      "message": "Exact support line 390"
+    },
+    {
+      "passed": true,
+      "message": "Six capability cards 390"
+    },
+    {
+      "passed": true,
+      "message": "Separate twelve technology tools 390"
+    },
+    {
+      "passed": true,
+      "message": "Details hidden until requested 390"
+    },
+    {
+      "passed": true,
+      "message": "No page overflow 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct PEOPLE detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PEOPLE capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete PEOPLE list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PEOPLE 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PEOPLE 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PEOPLE 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PEOPLE 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct OPERATIONS detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied OPERATIONS capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete OPERATIONS list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters OPERATIONS 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped OPERATIONS 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits OPERATIONS 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored OPERATIONS 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct PROCESS detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PROCESS capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete PROCESS list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PROCESS 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PROCESS 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PROCESS 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PROCESS 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct QUALITY detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied QUALITY capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete QUALITY list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters QUALITY 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped QUALITY 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits QUALITY 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored QUALITY 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct DATA detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied DATA capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete DATA list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters DATA 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped DATA 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits DATA 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored DATA 390"
+    },
+    {
+      "passed": true,
+      "message": "Correct AI & TRANSFORMATION detail title 390"
+    },
+    {
+      "passed": true,
+      "message": "All supplied AI & TRANSFORMATION capabilities exact 390"
+    },
+    {
+      "passed": true,
+      "message": "Complete AI & TRANSFORMATION list 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters AI & TRANSFORMATION 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped AI & TRANSFORMATION 390"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits AI & TRANSFORMATION 390"
+    },
+    {
+      "passed": true,
+      "message": "AI credibility disclaimer 390"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored AI & TRANSFORMATION 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power BI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power BI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power BI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Lists 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Lists 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Lists 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail SharePoint 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility SharePoint 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns SharePoint 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power Automate 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power Automate 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power Automate 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Excel 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Excel 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Excel 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Salesforce 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Salesforce 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Salesforce 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Redshift 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Redshift 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Redshift 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Teams 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Teams 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Teams 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Generative AI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Generative AI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Generative AI 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail AI Productivity Tools 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility AI Productivity Tools 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns AI Productivity Tools 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud Platforms 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud Platforms 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud Platforms 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud-based Business Applications 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud-based Business Applications 390"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud-based Business Applications 390"
+    },
+    {
+      "passed": true,
+      "message": "No invented ratings or credentials 390"
+    },
+    {
+      "passed": true,
+      "message": "No runtime errors 390: "
+    },
+    {
+      "passed": false,
+      "message": "No accessibility console warnings 390: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+    },
+    {
+      "passed": true,
+      "message": "Correct heading 320"
+    },
+    {
+      "passed": true,
+      "message": "Exact support line 320"
+    },
+    {
+      "passed": true,
+      "message": "Six capability cards 320"
+    },
+    {
+      "passed": true,
+      "message": "Separate twelve technology tools 320"
+    },
+    {
+      "passed": true,
+      "message": "Details hidden until requested 320"
+    },
+    {
+      "passed": true,
+      "message": "No page overflow 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct PEOPLE detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PEOPLE capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete PEOPLE list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PEOPLE 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PEOPLE 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PEOPLE 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PEOPLE 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct OPERATIONS detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied OPERATIONS capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete OPERATIONS list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters OPERATIONS 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped OPERATIONS 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits OPERATIONS 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored OPERATIONS 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct PROCESS detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied PROCESS capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete PROCESS list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters PROCESS 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped PROCESS 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits PROCESS 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored PROCESS 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct QUALITY detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied QUALITY capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete QUALITY list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters QUALITY 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped QUALITY 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits QUALITY 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored QUALITY 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct DATA detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied DATA capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete DATA list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters DATA 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped DATA 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits DATA 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored DATA 320"
+    },
+    {
+      "passed": true,
+      "message": "Correct AI & TRANSFORMATION detail title 320"
+    },
+    {
+      "passed": true,
+      "message": "All supplied AI & TRANSFORMATION capabilities exact 320"
+    },
+    {
+      "passed": true,
+      "message": "Complete AI & TRANSFORMATION list 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus enters AI & TRANSFORMATION 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus trapped AI & TRANSFORMATION 320"
+    },
+    {
+      "passed": true,
+      "message": "Dialog fits AI & TRANSFORMATION 320"
+    },
+    {
+      "passed": true,
+      "message": "AI credibility disclaimer 320"
+    },
+    {
+      "passed": true,
+      "message": "Focus restored AI & TRANSFORMATION 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power BI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power BI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power BI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Lists 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Lists 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Lists 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail SharePoint 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility SharePoint 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns SharePoint 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Power Automate 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Power Automate 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Power Automate 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Excel 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Excel 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Excel 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Salesforce 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Salesforce 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Salesforce 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Redshift 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Redshift 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Redshift 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Microsoft Teams 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Microsoft Teams 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Microsoft Teams 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Generative AI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Generative AI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Generative AI 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail AI Productivity Tools 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility AI Productivity Tools 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns AI Productivity Tools 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud Platforms 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud Platforms 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud Platforms 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool detail Cloud-based Business Applications 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool credibility Cloud-based Business Applications 320"
+    },
+    {
+      "passed": true,
+      "message": "Tool focus returns Cloud-based Business Applications 320"
+    },
+    {
+      "passed": true,
+      "message": "No invented ratings or credentials 320"
+    },
+    {
+      "passed": true,
+      "message": "No runtime errors 320: "
+    },
+    {
+      "passed": false,
+      "message": "No accessibility console warnings 320: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+    },
+    {
+      "passed": true,
+      "message": "Dialog respects reduced motion"
+    }
+  ],
+  "errors": [
+    "Focus restored OPERATIONS 1440",
+    "Focus restored QUALITY 1440",
+    "No accessibility console warnings 1440: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+    "Focus restored AI & TRANSFORMATION 1024",
+    "No accessibility console warnings 1024: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+    "No accessibility console warnings 768: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+    "No accessibility console warnings 390: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+    "No accessibility console warnings 320: ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.,⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+  ]
+}
