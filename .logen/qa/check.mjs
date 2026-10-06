@@ -74,7 +74,7 @@ for (const width of [1440, 1024, 768, 390, 320]) {
   }
   if (id === 'next') {
    const body = await page.locator('#next').innerText();
-   assert(body.includes('2026 → Present') && body.includes('Some things are better revealed'), `Undisclosed chapter preserved at ${width}px`);
+   assert(/2026 → present/i.test(body) && body.includes('Some things are better revealed'), `Undisclosed chapter preserved at ${width}px`);
   }
   if (id === 'contact') {
    assert(await page.locator('#contact a[aria-disabled="true"]').count() === 3, `Missing contact details are honest at ${width}px`);

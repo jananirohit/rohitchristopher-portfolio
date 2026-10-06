@@ -232,7 +232,7 @@ export function enhancePortfolio(root: HTMLElement, navigate: (path: string) => 
     if (details.childElementCount) nextSection.querySelector('.section-inner')?.append(details);
   }
 
-  const contacts = all<HTMLAnchorElement>('#contact a');
+  const contacts = all<HTMLAnchorElement>('#contact a').filter(anchor => !anchor.closest('.destination-wayfinding'));
   const contactUrls = [portfolioConfig.linkedin, portfolioConfig.email ? `mailto:${portfolioConfig.email}` : null, portfolioConfig.cv];
   contacts.forEach((anchor, index) => {
     const url = contactUrls[index];
@@ -253,7 +253,7 @@ export function enhancePortfolio(root: HTMLElement, navigate: (path: string) => 
   if (contactUrls.some(url => !url)) {
     const note = text('p', 'contact-availability', 'Personal contact links and CV will be available here once supplied.');
     note.id = 'contact-availability';
-    select('#contact .section-inner')?.append(note);
+    (select('#contact .section-inner') ?? select('#contact .relative.mx-auto'))?.append(note);
   }
 
   let scheduled = 0;
